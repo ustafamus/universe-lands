@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  output: 'export',
 
   // This folder is the workspace root (there are other lockfiles further up the tree).
   outputFileTracingRoot: dirname(fileURLToPath(import.meta.url)),
