@@ -1,0 +1,11 @@
+{
+  // Must match the Worker name in the Cloudflare dashboard.
+  "name": "universe-lands",
+  "compatibility_date": "2026-08-01",
+
+  // `next build` with output: 'export' writes the static site here.
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page"
+  }
+}
